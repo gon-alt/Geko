@@ -1,0 +1,230 @@
+/* comentarios */
+
+/* color de fondo de todo el cuerpo de la pagina */
+body{
+	background: #ffff;
+}
+
+/*aside costado de la pagino*/
+
+  
+
+/* fuente- color- tamaño del fuente e interlineado  - margen cero del cuerpo   */
+
+body{
+	font-family: Courier;
+	color: black;
+	font-size: 1.2rem;
+	line-height: 1.6em;	
+	margin: 0;
+
+
+}
+
+
+
+/* ancho de la menu principal  */
+
+.container{
+	width: 85%;
+	max-width: 950px;
+	margin: 0;
+	
+}
+
+/* estilo de cabecera  */
+
+.header{
+	background: #1E120D;
+	color: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+
+	
+}
+
+.main{
+	padding-top: 16rem;
+}
+/* enlaces de cabecera color blanco y sin subrrallado  */
+
+.header a{
+	color: white;
+	text-decoration: none;
+
+
+}
+
+/* menu unificado centrado con el logo  */
+.container{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	
+}
+
+
+/* estilo del menu de navegacion fijo sin formato de lista  */
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	
+}
+
+/* elementos de lista sin viñeta  */
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+
+}
+
+/* eliminacion del formato de lista  */
+.navigation ul li{
+	display: inline-block;
+	
+	
+}
+
+/* pading de lista menu  */
+
+.navigation ul li a{
+	display: block;
+	padding: 1rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+
+	
+}
+
+/* sombra al pasar cursor poe arriba  */
+.navigation ul li a:hover {
+	background: #4a4a4a; 
+}
+
+
+
+
+.menu1-footer ul{
+	margin: 1;
+	padding: 1;
+	list-style: none;
+	text-align: left;
+}
+
+.menu2-footer ul{
+	margin: 1;
+	padding: 1;
+	list-style: none;
+	text-align: left;
+}
+
+.menu3-footer ul{
+	margin: 1;
+	padding: 1;
+	list-style: none;
+	text-align: left;
+}
+
+/* pading de menu1 del footer  */
+.menu1-footer ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 2px;
+
+	
+}
+
+.menu2-footer ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 2px;
+
+	
+}
+
+.menu3-footer ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 2px;
+
+	
+}
+.footer{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	font-size: 0.9rem;
+
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+
+}
+.footer {
+	
+	background: #f2f2f2;
+	padding: 2rem 0;
+	text-align: left; 
+	
+}
+
+
+
+.menu-icon{
+	display: none;
+	
+}
+
+
+@media only screen and (max-width: 824px) {
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+		padding: 0.5rem 1rem;
+	}
+	
+	.navigation{
+		width: 100%;
+		margin-top: 1rem;
+	}
+	.navigation ul{
+		display: none;
+	}
+	.navigation ul.show{
+		display: block;
+	}
+	.navigation ul li{
+		display: block;
+	}
+	.navigation{
+		display: block;
+		padding: 0.5rem 0;
+	}	
+	.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: noen;
+	
+	text-align: center;
+	
+}
+
+
+
+
+
+
