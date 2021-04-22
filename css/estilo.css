@@ -16,10 +16,17 @@ body{
 	color: black;
 	font-size: 1.2rem;
 	line-height: 1.6em;	
-	margin: 0;
+	margin: 300;
 
 
 }
+form {
+	width: 25%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+
 
 
 
@@ -218,10 +225,10 @@ body{
 	margin: 0;
 	padding: 0;
 	list-style: noen;
-	
 	text-align: center;
 	
 }
+
 
 
 
