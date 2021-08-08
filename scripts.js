@@ -15,3 +15,10 @@ jQuery('document').ready(function($){
 	});
 	
 });
+
+	$(function () {
+		$('.carousel').carousel({
+			duration:1000,
+			 
+		});
+	});
