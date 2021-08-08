@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Geco</title>
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-whidth, initial-scale=1">
+</head>
+<body>
+	
+	<!-- cabecera -->
+<header class= "header">
+	<!-- menu fijo -->
+	<div class= "container">
+		<a href="file:/C:/Users/Gonza/Desktop/GECO/pagina/index.html"class="logo"><IMG src="img/logo-geco.png" width="150" height="150"></a>
+		<span class="menu-icon">Ver menú</span>	
+		<!-- lista del menu -->
+		<nav class="navigation">
+			<ul>
+				<li><a href="file:/C:/Users/Gonza/Desktop/GECO/pagina/Nosotros.html"><b>Nosotros</b></a></li>
+				<li><a href="file:///C:/Users/Gonza/Desktop/geco%20-%20html5/tienda.html"><b>Tienda</b></a></li>
+				<li><a href="file:///C:/Users/Gonza/Desktop/geco%20-%20html5/Preguntas.html"><b>Preguntas</b></a></li>	
+				<li><a href="file:///C:/Users/Gonza/Desktop/geco%20-%20html5/Fotos.html"><b>Fotos</b></a></li>	
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<!-- poner carrusel de imagenes -->
+
+		
+<main class="main">
+	
+	<!-- texo de la pagina / articulo -->
+	<section>
+
+		<article>
+				
+		<h1>Ponete en contacto con nosotros</h1>
+		
+		<p>Cualquier duda que tengas envianos un mensaje con el formulario, tambien podes contactarnos por nuestras redes sociales o un mensaje directos de whats app
+		</p>
+		
+	</section>
+
+	<form id="contact form" class="contact" name="contactForm" action="enviar1.php" method="post">
+		<label for="nombre">Nombre</label>
+		<input type="text" required="required" name="Nombre">
+		<label for="email" >Email</label>
+		<input type="email" required="required" name="email">
+		<label for="number">Telefono</label>
+		<input type="number" name="Telefono">
+		Tu mensaje: 
+		<textarea name="mensaje"> </textarea> <br/><br/>
+			  
+		<input type="submit" value="Enviar"/>
+  	</form>
+
+
+		
+</main>
+	<!-- footer -->
+<footer class="footer">		
+			
+	<div style="text-align: left"><a href="#"class="logo"><IMG src="img/bike.png" width="150" height="150"></a>		
+	</div>
+	<nav class="menu1-footer">
+			<ul>
+				<h3>CONTACTO</h3>
+				<li><a href="#">Envianos un mensaje</a></li>	
+				<li><a href="#">Whats app 541138305220</a></li>	
+				<li><a href="#">Direccion</a></li>
+			</ul>
+	</nav>
+	<nav class="menu2-footer">
+			<ul>
+				<H3>COMPRAS</H3>
+				<li><a href="#">Comprar en Argentina</a></li>	
+				<li><a href="#">Compras internacionales</a></li>	
+				<li><a href="#">Ver nustra tienda</a></li>
+			</ul>
+	</nav>
+	<nav class="menu3-footer">
+			<ul>
+				<H3>FORMAS DE PAGO/ENVIOS</H3>
+				<li><a href="#">Mercado pago</a></li>	
+				<li><a href="#">Tranferencias Bancarias</a></li>	
+				<li><a href="#">Envios por OCA</a></li>
+			</ul>
+	</nav>
+	<div class="NEWS">
+		<h3>SUSCRIBITE</h3>
+			<form name="formulario" method="post" action="/send.php">
+  <!-- Datos del formulario -->
+  E-mail: <input type="E-mail" e-mail="e-mail" /><br>
+  <!-- Botón de envío de formulario -->
+  <input type="submit" value="Enviar formulario" />
+</form>
+	</div>
+	
+</footer>
+	<!-- menu desplegable movil "ver mas" -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+			
+</body>
+
+</html>
