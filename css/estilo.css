@@ -28,14 +28,7 @@ body{
 	right: 0;
 	
 }
-.carrusel{
-	padding-top: 10rem;
-}
-.carrusel img{
-	
-	display: block;
-	margin: auto;
-}
+
 .main{
 	padding-top: 16rem;
 }
@@ -44,6 +37,7 @@ body{
 	color: white;
 	text-decoration: none;
 }
+
 .container{
 	display:flex;
 	justify-content:space-between;
@@ -52,18 +46,11 @@ body{
 	text-align: center;
 	
 }
-.container{
-	
-	
-	
-}
-
 
 .navigation ul{
 	margin: 0;
 	padding: 0;
-	list-style: noen;
-	
+	list-style: noen;	
 	text-align: center;
 	
 }
@@ -88,17 +75,30 @@ body{
 }
 
 .footer {
-	
-	padding: 2rem 0;
-	text-align: center; 	
+	background: black;
+	color: white;
+	float: left;
+	background-color: black;
+	width: 100%;				
+}
+
+.footer a{
+	color: #D8D7D7;
+	text-decoration: none;
 }
 
 .footer nav{
-
-	margin: 30px;
-
-	float: left;
+	float: left;	
 }
+
+.NEWS{
+	padding-left: 3rem;
+	text-align: center;
+}
+
+
+
+
 .menu-icon{
 	display: none;
 	
