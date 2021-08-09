@@ -18,19 +18,17 @@ body{
 	
 }
 
-
 .header{
 	background: #1E120D;
 	color: white;
 	position: fixed;
 	left: 0;
 	top: 0;
-	right: 0;
-	
+	right: 0;	
 }
 
 .main{
-	padding-top: 16rem;
+	padding-top: 14rem;
 }
 
 .header a{
@@ -52,13 +50,10 @@ body{
 	padding: 0;
 	list-style: noen;	
 	text-align: center;
-	
 }
 
 .navigation ul li{
 	display: inline-block;
-	
-	
 }
 
 .navigation ul li a{
@@ -66,12 +61,14 @@ body{
 	padding: 0.5rem 1rem;
 	transition: all 0.4s linear;
 	border-radius: 5px;
-
-	
 }
 
 .navigation ul li a:hover {
 	background: #4a4a4a; 
+}
+
+.articulo{
+	margin:3rem;
 }
 
 .footer {
