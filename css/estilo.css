@@ -79,7 +79,9 @@ body{
 	color: white;
 	float: left;
 	background-color: #1E120D;
-	width: 100%;				
+	width: 100%;	
+	
+			
 }
 
 .footer a{
@@ -88,11 +90,28 @@ body{
 }
 
 .footer nav{
+	font-size: 1rem;
 	float: left;	
+}
+.foto{
+	padding-left: 3rem;
+}
+.menu1-footer{
+	padding-left: 3rem;
+}
+.menu2-footer{
+	padding-left: 3rem;
+}
+.menu3-footer{
+	padding-left: 3rem;
 }
 
 .NEWS{
 	padding-left: 3rem;
+	text-align: center;
+}
+.derechos{
+	font-size: 0.9rem;
 	text-align: center;
 }
 
