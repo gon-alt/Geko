@@ -14,7 +14,7 @@
 	<!-- menu fijo -->
 	<div class= "container">
 		<a href="https://gon-alt.github.io/geco/"class="logo"><IMG src="img/logo-geco.png" width="150" height="150"></a>
-		<span class="menu-icon">Ver menú</span>	
+		<span class="menu-icon">Menú</span>	
 		<!-- lista del menu -->
 		<nav class="navigation">
 			<ul>
@@ -44,18 +44,12 @@
 		
 	</section>
 
-	<form id="contact form" class="contact" name="contactForm" action="enviar1.php" method="post">
-		<label for="nombre">Nombre</label>
-		<input type="text" required="required" name="Nombre">
-		<label for="email" >Email</label>
-		<input type="email" required="required" name="email">
-		<label for="number">Telefono</label>
-		<input type="number" name="Telefono">
-		Tu mensaje: 
-		<textarea name="mensaje"> </textarea> <br/><br/>
-			  
-		<input type="submit" value="Enviar"/>
-  	</form>
+	<form action="formulario-contacto.php" method="post"> 
+        <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+        <input name="email" type="email" placeholder="Correo electrónico" required /> 
+        <textarea name="consulta" placeholder="¿Cuál es el motivo de tu consulta?" rows="6" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+</form> 
 
 
 		
