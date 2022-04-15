@@ -44,11 +44,25 @@
 		
 	</section>
 
-	<form action="https://formsubmit.co/gonzaloguido2@gmail.com" method="post"> 
-        <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
-        <input name="email" type="email" placeholder="Correo electrónico" required /> 
-        <textarea name="consulta" placeholder="¿Cuál es el motivo de tu consulta?" rows="6" required></textarea>
-        <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+<div class="formu">
+  
+  <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Deje su mensaje" class="form-control" name="mensaje" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+  </form>
+</div>
 </form> 
 
 
@@ -87,7 +101,7 @@
 	</nav>
 	<nav class="NEWS">
 		<h3>SUSCRIBITE</h3>
-			<form name="formulario" method="post" action="/send.php">
+			<form name="formulario"action="https://formsubmit.co/your@email.com" method="POST">
   						<!-- Datos del formulario -->
   			E-mail:<br> <input type="e-mail"e-mail="e-mail" /><br>
   						<!-- Botón de envío de formulario -->

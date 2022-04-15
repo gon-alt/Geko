@@ -193,3 +193,15 @@ form button: hover{
 textarea {  resize: none;}
 	
 }	
+
+.formu{
+	
+display: table;
+height:20vh;
+width:20vw;
+margin: auto;
+	
+
+}
+
+
