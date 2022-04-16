@@ -5,8 +5,8 @@ body{
 body{
 	font-family: Courier;
 	color: black;
-	font-size: 1.2rem;
-	line-height: 1.6em;	
+	font-size: 1rem;
+	line-height: 1em;	
 	margin: 0;
 }
 
@@ -14,8 +14,7 @@ body{
 .container{
 	width: 100%;
 	max-width: 980px;
-	margin: 0;
-	
+	margin: 0;	
 }
 
 .header{
@@ -41,8 +40,7 @@ body{
 	justify-content:space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .navigation ul{
@@ -71,14 +69,16 @@ body{
 	margin:3rem;
 }
 
+
 .footer {
 	background: #1E120D;
 	color: white;
-	float: left;
-	background-color: #1E120D;
-	width: 100%;	
-	
-			
+	justify-content:space-between;	
+	width: 100%;
+	display: flex;	
+	flex-wrap: wrap;
+	align-items: center;
+						
 }
 
 .footer a{
@@ -91,23 +91,26 @@ body{
 	float: left;	
 }
 .foto{
-	padding-left: 3rem;
+	padding-left: 2rem;
 }
 .menu1-footer{
-	padding-left: 3rem;
+	padding-left: 2rem;
 }
 .menu2-footer{
-	padding-left: 3rem;
+	padding-left: 2rem;
 }
 .menu3-footer{
-	padding-left: 3rem;
+	padding-left: 2rem;
 }
 
 .NEWS{
 	padding-left: 3rem;
 	text-align: center;
+	color: #ffffff;
 }
-.derechos{
+
+
+.derechos{	
 	font-size: 0.9rem;
 	text-align: center;
 }
@@ -115,8 +118,7 @@ body{
 .galeria{
 	width: 75%;	
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
  }
 
  .galeria img{ 	
@@ -124,16 +126,13 @@ body{
  	height: 170px;
  }
 
-
-
-
 .menu-icon{
 	display: none;
 	
 }
 
-
 @media only screen and (max-width: 824px) {
+
 	.menu-icon{
 		display: block;
 		cursor: pointer;
@@ -157,51 +156,50 @@ body{
 		display: block;
 		padding: 0.5rem 0;
 	}	
-
-	@import url(https://fonts.googleapis.com/css?family=Roboto:400);
-form{
-  padding: 60px;
-  max-width: 400px;
-  background-color: #E7E7E7;
-  margin: 0 auto;
-}
-
-form input, form textarea{
-  margin-bottom: 15px;
-  font-family: "Roboto", sans-serif;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box; 
-  border: none; 
-  color: #525c66; 
-  font-size: 1em;
-  resize: none; 
-}
-
-form button {
-	display: block;
-	background-color: #000000;
-	padding: 10px 45px 10px 45px;
-	border: 0;
-	font-size: 1em; 
-	color: 	white;
-  font-family: "Roboto", sans-serif;
-}
-form button: hover{
-	background-color: white;
-}
-textarea {  resize: none;}
-	
-}	
-
-.formu{
-	
-display: table;
-height:20vh;
-width:20vw;
-margin: auto;
-	
-
-}
+	h2{
+		text-align:center;
+	  }
+	  
+	  h2 a {
+		color: rgb(50,50,50);
+		text-decoration: none;
+	   }
+	  
+	  .form{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	   }
+	  
+	  .form input{
+		width: 90%;
+		height: 30px;
+		margin: .5rem
+	  }
+	  
+	  .form button{
+		padding: .5em 1em;
+		border:none;
+		background: rgb(0, 0, 0);
+		cursor: pointer;
+		color: #ffffff;
+	  }
+	  
+	  .form-container{
+		max-width:700px;
+		margin: 0 auto;
+	  }
+	  
+	  .form-element {
+		display: block;
+		width: 80%;
+		margin: 1rem auto;
+		
+	  }
 
 
